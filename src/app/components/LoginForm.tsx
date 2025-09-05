@@ -119,7 +119,7 @@ export const LoginForm = () => {
                         </div>
                         <div className="mt-4 text-center text-sm">
                             No tienes cuenta?{" "}
-                            <a href="#" className="underline underline-offset-4"
+                            <a className="cursor-pointer underline underline-offset-4"
                                 onClick={() => navigate('/register')}
                             >
                                 Registrar

@@ -119,11 +119,11 @@ export const LoginForm = () => {
                         </div>
                         <div className="mt-4 text-center text-sm">
                             No tienes cuenta?{" "}
-                            <a className="cursor-pointer underline underline-offset-4"
+                            <p className="cursor-pointer underline underline-offset-4"
                                 onClick={() => navigate('/register')}
                             >
                                 Registrar
-                            </a>
+                            </p>
                         </div>
                     </form>
                 </CardContent>

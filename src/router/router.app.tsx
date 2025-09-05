@@ -1,10 +1,10 @@
 import { Welcome } from '@/app/components/Welcome'
 import { LoginPage } from '@/app/login/LoginPage'
 import { RegisterPage } from '@/app/login/RegisterPage'
-import { createBrowserRouter } from 'react-router'
+import { createHashRouter } from 'react-router'
 
 // export const appRouter = createBrowserRouter([
-export const appRouter = createBrowserRouter([
+export const appRouter = createHashRouter([
     {
         path: '/',
         element: <LoginPage />
@@ -18,6 +18,4 @@ export const appRouter = createBrowserRouter([
         element: <Welcome />
     },
 
-], {
-    basename: 'https://jeffryvalle.github.io/login-app'
-})
+])

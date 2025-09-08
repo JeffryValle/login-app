@@ -1,12 +1,11 @@
 # LoginApp
 
-
 ## <p align="center">Preview <p>
 <p align="center">
   <img src="src/assets/preview.jpg" alt="preview" width='400px' height='400px' />
 </p>
 
-## Construido usando Vite con 🛠️ 
+## Construido usando Vite 🛠️ 
 
 _Herramientas utilizadas:_
 
@@ -17,103 +16,21 @@ _Herramientas utilizadas:_
 * [Sonner](https://sonner.emilkowal.ski/getting-started) - Toast component minimalista
 * [React-Hook-Form](https://react-hook-form.com/get-started) - Manejo de formulario, validación de datos
 * [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction) - Zustand para manejo del estado global
-
-## Tailwind 🚀
-```javascript
-npm install tailwindcss @tailwindcss/vite
-```
-```javascript
-// Archivo vite.config.ts
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
-export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
-})
-```
-```javascript
-// Archivo src/index.css
-@import "tailwindcss";
+* [v0 by Vercel](https://v0.app/) -  Herramienta de IA generativa UI
+## Clonar repositorio 🚀
+```bash
+git clone https://github.com/JeffryValle/login-app.git
 ```
 
-## Shadcn 📋
+## Instalar dependencias 🚀
 ```javascript
-// Archivo tsconfig.json
-{
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
-}
-```
-```javascript
-// Archivo tsconfig.app.json
-{
-  "compilerOptions": {
-    // ...
-    "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    }
-    // ...
-  }
-}
-```
-```javascript
-// resolve paths without error
-npm install -D @types/node
-```
-```javascript
-// Archivo vite.config.ts
-import path from "path"
-import tailwindcss from "@tailwindcss/vite"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
-
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-})
-```
-```javascript
-// Ejecutar proyecto
-npx shadcn@latest init
+npm install
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Servir proyecto 📄
+```javascript
+npm run dev
+```
 
 
 
